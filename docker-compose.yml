@@ -3,7 +3,7 @@ name: cicd-demo
 services:
 
   web:
-    image: ghcr.io/ravindransamy/cicd-demo-app:latest
+    image: ghcr.io/ravindransamy/cicd-demo-app:v1.2.0
 
     ports:
       - "8080:80"
