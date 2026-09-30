@@ -1,0 +1,11 @@
+services:
+
+  web:
+    image: ghcr.io/ravindransamy/cicd-demo-app:latest
+
+    container_name: cicd-demo-deployment
+
+    ports:
+      - "8080:80"
+
+    restart: unless-stopped
