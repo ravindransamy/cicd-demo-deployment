@@ -4,13 +4,6 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
-            steps {
-                echo 'Checking out deployment configuration'
-                checkout scm
-            }
-        }
-
         stage('Show Configuration') {
             steps {
                 echo 'Deployment configuration:'
